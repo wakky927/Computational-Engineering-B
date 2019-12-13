@@ -3,8 +3,7 @@ import os
 import numpy as np
 from matplotlib import pyplot as plt
 
-from func import diff as df
-from func import setup_conditions
+from func import diff, setup_conditions
 
 
 if __name__ == '__main__':
@@ -39,7 +38,7 @@ if __name__ == '__main__':
             setup_conditions.lec1(n, dx, x, f, df_exact)
 
             # 1st derivative by 1st-order forward scheme
-            df.first_forward(n, dx, f, df_approx_f)
+            diff.first_forward(n, dx, f, df_approx_f)
             abs_f = df_approx_f - df_exact
 
             # write csv file
@@ -78,7 +77,7 @@ if __name__ == '__main__':
             fig.savefig('../data/lecture1/images/errors/first_forward/{}/first_forward_{}.png'.format(N, n))
 
             # 1st derivative by 2nd-order central scheme
-            df.second_central(n, dx, f, df_approx_c)
+            diff.second_central(n, dx, f, df_approx_c)
             abs_c = df_approx_c - df_exact
 
             # write csv file

@@ -9,7 +9,7 @@
 * numba 0.44.1
 * matplotlib 3.1.0
  
-Environments under [Anaconda for mac](https://www.anaconda.com/distribution/) is tested.
+Environments: [Anaconda](https://www.anaconda.com/distribution/), [Pycharm](https://www.jetbrains.com/pycharm/)
  
 # Usage
  
