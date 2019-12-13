@@ -7,7 +7,7 @@
 * Python 3.7.3
 * numpy 1.16.4
 * numba 0.44.1
-*matplotlib 3.1.0
+* matplotlib 3.1.0
  
 Environments under [Anaconda for mac](https://www.anaconda.com/distribution/) is tested.
  
