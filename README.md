@@ -26,8 +26,8 @@ I have not test environments under Linux and Windows yet.
 # Author
  
 * Takuya Wada
-* Hokkaido University
-* Twitter : https://twitter.com/Uv44MiYxPvVLnPe
+* Faculty of Engineering, Hokkaido University
+* E-mail: wakky-927-5831@eis.hokudai.ac.jp
  
 # License
  
