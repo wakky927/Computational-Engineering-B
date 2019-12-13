@@ -9,6 +9,6 @@ setup(
     author='Takuya Wada',
     author_email='wakky.927.5831@gmail.com',
     install_requires=['numpy', 'numba', 'matplotlib'],
-    url='https://github.com/wakky927',
+    url='https://github.com/wakky927/Computational-Engineering-B',
     license='Takuya Wada'
 )
