@@ -56,7 +56,7 @@ if __name__ == '__main__':
                                               df_approx_f[i], abs(df_approx_f[i] - df_exact[i])))
 
             # each graph
-            # fig = plt.figure(2 * n - 1)
+            fig = plt.figure(2 * n - 1)
             plt.scatter(x[1:-1], df_exact[1:-1], s=20, c='m', marker='.', label='f\'_exact')
             plt.scatter(x[1:-1], df_approx_f[1:-1], s=20, c='y', marker='.', label='f\'_approx')
             plt.scatter(x[1:-1], abs_f[1:-1], s=20, c='c', marker='.', label='f\'_error')
