@@ -21,7 +21,7 @@ python lecture#.py
  
 # Note
  
-I have not test environments under Linux and Windows yet.
+I have not test environments under Linux yet.
  
 # Author
  
