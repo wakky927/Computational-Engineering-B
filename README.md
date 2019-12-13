@@ -13,7 +13,7 @@ Environments under [Anaconda for mac](https://www.anaconda.com/distribution/) is
  
 # Usage
  
-Run "lecture#.py"
+Run "lecture#.py" in "src" directry
  
 ```bash
 python lecture#.py
