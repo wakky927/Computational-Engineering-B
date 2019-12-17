@@ -8,6 +8,7 @@
 * numpy 1.16.4
 * numba 0.44.1
 * matplotlib 3.1.0
+* scipy 1.3.0
  
 Environments: [Anaconda](https://www.anaconda.com/distribution/), [Pycharm](https://www.jetbrains.com/pycharm/)
  

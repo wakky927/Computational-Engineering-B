@@ -38,7 +38,7 @@ if __name__ == '__main__':
             setup_conditions.lec1(n, dx, x, f, df_exact)
 
             # 1st derivative by 1st-order forward scheme
-            diff.first_forward(n, dx, f, df_approx_f)
+            diff.lec1_first_forward(n, dx, f, df_approx_f)
             abs_f = df_approx_f - df_exact
 
             # write csv file
@@ -77,7 +77,7 @@ if __name__ == '__main__':
             fig.savefig('../data/lecture1/images/errors/first_forward/{}/first_forward_{}.png'.format(N, n))
 
             # 1st derivative by 2nd-order central scheme
-            diff.second_central(n, dx, f, df_approx_c)
+            diff.lec1_second_central(n, dx, f, df_approx_c)
             abs_c = df_approx_c - df_exact
 
             # write csv file
