@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/func/fit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/func/diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/func/diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/func/setup_conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/func/setup_conditions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576273766803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add lecture2 coding">
+      <created>1576615908653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576615908653</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify directory configuration" />
     <MESSAGE value="modify README" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify README" />
+    <MESSAGE value="add lecture2 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lecture2 coding" />
   </component>
 </project>

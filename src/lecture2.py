@@ -54,7 +54,9 @@ if __name__ == '__main__':
     plt.subplots_adjust(bottom=0.3)
     plt.xlim(np.min(X), np.max(X))
     plt.ylim(np.min(Y), np.max(Y))
-    plt.show()
+    # plt.show()
+    os.makedirs('../data/lecture2/images'.format(N), exist_ok=True)
+    fig.savefig('../data/lecture2/images/{}.png'.format(N))
 
     # write csv file
     # m2 = np.transpose(np.stack([X[1:], Y[1:]]))
