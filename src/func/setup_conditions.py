@@ -22,3 +22,12 @@ def lec2(n, dx, x, f):
     f2_exact = np.exp(dx / 2) - np.exp(-dx / 2)
 
     return f1_exact, f2_exact
+
+
+@jit
+def lec3(n, dt, t, f_exact):
+    for i in range(n + 1):
+        t[i] = dt * i
+        f_exact[i] = np.exp(t[i])
+
+    return
