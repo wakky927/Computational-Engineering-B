@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lecture3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/func/diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/func/diff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/func/setup_conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/func/setup_conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576616572488</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add lecture3 coding">
+      <created>1576649318396</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576649318396</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +224,7 @@
     <MESSAGE value="modify directory configuration" />
     <MESSAGE value="modify README" />
     <MESSAGE value="add lecture2 coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lecture2 coding" />
+    <MESSAGE value="add lecture3 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lecture3 coding" />
   </component>
 </project>
