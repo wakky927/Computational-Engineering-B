@@ -58,10 +58,10 @@ if __name__ == '__main__':
 
     # graph2
     fig, ax = plt.subplots()
-    ax.plot(t[:-1], error[:-1], label='error_Euler')
+    ax.plot(t[:-1], error[:-1], label='error_Python')
     ax.plot(t[:-1], np.abs(f_exact[:-1] - excel[:, 1]), label='error_Excel')
-    ax.plot(t[:-1], np.abs(f_approx[:-1] - excel[:, 1]), label='abs(Euler - Excel)')
-    plt.title("A comparison with Euler and Excel")
+    ax.plot(t[:-1], np.abs(f_approx[:-1] - excel[:, 1]), label='| Python - Excel |')
+    plt.title("A comparison with Python and Excel")
     plt.legend(loc='lower right')
     plt.xlim(np.min(t), np.max(t))
     plt.yscale("log")
@@ -102,10 +102,10 @@ if __name__ == '__main__':
 
     # graph2
     fig, ax = plt.subplots()
-    ax.plot(t[:-1], error[:-1], label='error_Adams-Bashforth')
+    ax.plot(t[:-1], error[:-1], label='error_Python')
     ax.plot(t[:-1], np.abs(f_exact[:-1] - excel[:, 2]), label='error_Excel')
-    ax.plot(t[:-1], np.abs(g_approx[:-1] - excel[:, 2]), label='abs(Adams-Bashforth - Excel)')
-    plt.title("A comparison with Adams-Bashforth and Excel")
+    ax.plot(t[:-1], np.abs(g_approx[:-1] - excel[:, 2]), label='| Python - Excel |')
+    plt.title("A comparison with Python and Excel")
     plt.legend(loc='right')
     plt.xlim(np.min(t), np.max(t))
     plt.yscale("log")
