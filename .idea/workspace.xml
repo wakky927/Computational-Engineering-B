@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Adams-Bashforth/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Adams-Bashforth/dt_0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Euler/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Euler/dt_0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Trapezoidal/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Trapezoidal/dt_0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture3.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +34,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myfunc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/lecture3/csv/Excel" />
+      <recent name="$PROJECT_DIR$/data/lecture3/csv/0.1" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
