@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Adams-Bashforth/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Adams-Bashforth/dt_0.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Euler/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Euler/dt_0.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture3/images/Trapezoidal/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/Trapezoidal/dt_0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/csv/Excel/dt_0.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/csv/Excel/dt_0.1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/images/error/Adams-Bashforth/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/error/Adams-Bashforth/dt_0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture3/images/error/Euler/dt_0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture3/images/error/Euler/dt_0.1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lecture3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576651960523</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify lecture3 coding">
+      <created>1576720459280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576720459280</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +244,7 @@
     <MESSAGE value="modify README" />
     <MESSAGE value="add lecture2 coding" />
     <MESSAGE value="add lecture3 coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lecture3 coding" />
+    <MESSAGE value="modify lecture3 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify lecture3 coding" />
   </component>
 </project>

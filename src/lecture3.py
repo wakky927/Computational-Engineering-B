@@ -106,7 +106,7 @@ if __name__ == '__main__':
     ax.plot(t[:-1], np.abs(f_exact[:-1] - excel[:, 2]), label='error_Excel')
     ax.plot(t[:-1], np.abs(g_approx[:-1] - excel[:, 2]), label='abs(Adams-Bashforth - Excel)')
     plt.title("A comparison with Adams-Bashforth and Excel")
-    plt.legend(loc='lower right')
+    plt.legend(loc='right')
     plt.xlim(np.min(t), np.max(t))
     plt.yscale("log")
     # plt.show()
