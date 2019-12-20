@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy import optimize
 
-from func import diff, setup_conditions, fit
+from func import operation, setup_conditions, fit
 
 
 if __name__ == '__main__':
@@ -23,8 +23,8 @@ if __name__ == '__main__':
 
         f1_exact, f2_exact = setup_conditions.lec2(n, dx, x, f)
 
-        f1_approx = diff.lec2_first_func(dx, f)
-        f2_approx = diff.lec2_second_func(dx, f)
+        f1_approx = operation.lec2_first_func(dx, f)
+        f2_approx = operation.lec2_second_func(dx, f)
 
         # print("\ndx, f1_exact, f1_approx, error")
         # print(dx, f1_exact, f1_approx, abs(f1_approx - f1_exact))

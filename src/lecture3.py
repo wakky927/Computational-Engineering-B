@@ -3,7 +3,7 @@ import os
 import numpy as np
 from matplotlib import pyplot as plt
 
-from func import diff, setup_conditions, fit
+from func import operation, setup_conditions
 
 
 if __name__ == '__main__':
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     # calculation
     ''' Euler method '''
     f_approx[0], f_approx[1] = f_exact[0], f_exact[1]  # I.C.
-    diff.lec3_euler(n, dt, f_approx)
+    operation.lec3_euler(n, dt, f_approx)
     error = np.abs(f_exact - f_approx)
 
     # write csv file
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
     ''' Adams-Bashforth method '''
     g_approx[0], g_approx[1] = f_exact[0], f_exact[1]  # I.C.
-    diff.lec3_ab(n, dt, g_approx)
+    operation.lec3_ab(n, dt, g_approx)
     error = f_exact - g_approx
 
     # write csv file
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
     ''' Trapezoidal method '''
     h_approx[0], h_approx[1] = f_exact[0], f_exact[1]  # I.C.
-    diff.lec3_tra(n, dt, h_approx)
+    operation.lec3_tra(n, dt, h_approx)
     error = f_exact - h_approx
 
     # write csv file
