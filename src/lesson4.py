@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     print(f"m = {m}\nL = {dl}\ndx = {dx}\nc = {c}\n")
 
-    for omega in range(1, 301):
+    for omega in range(1, 201):
         # setup matrix (d^2f/dx^2) = b
         x = np.zeros(m + 1)
         ap = np.zeros(m + 1)
