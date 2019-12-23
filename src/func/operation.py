@@ -74,6 +74,6 @@ def lec3_tra(n, dt, f_approx):
 def lec4_exact(m, dl, c, x, p_exact):
     for i in range(1, m + 1):
         p_exact[i] = x[i] * (x[i] - 2 * dl) * (c / 2)
-        print(i, x[i], p_exact[i])
+        # print(i, x[i], p_exact[i])
 
     return
