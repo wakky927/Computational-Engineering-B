@@ -64,10 +64,10 @@ if __name__ == '__main__':
         #     print(f"SOR iteration no. {result[o][1]}  -- error = {result[o][2]}, {result[o][3]}, {result[o][4]}\n")
 
         # # write csv file
-        # m_e = np.transpose(np.stack([x[1:], p[1:]]))
-        # os.makedirs(f'../data/lecture4/csv/output_SOR', exist_ok=True)
-        # np.savetxt(f'../data/lecture4/csv/output_SOR/relax_factor_{relax_factor}.csv',
-        #            m_e, delimiter=',', fmt='%.16f', header="x,p")
+        m_e = np.transpose(np.stack([x[1:], p[1:]]))
+        os.makedirs(f'../data/lecture4/csv/output_SOR', exist_ok=True)
+        np.savetxt(f'../data/lecture4/csv/output_SOR/relax_factor_{relax_factor}.csv',
+                   m_e, delimiter=',', fmt='%.16f', header="x,p")
 
         # graph1
         # fig, ax = plt.subplots()
