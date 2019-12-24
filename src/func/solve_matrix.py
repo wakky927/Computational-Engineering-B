@@ -30,7 +30,7 @@ def SOR1(md, p, ap, ae, aw, bb, m, p_exact, relax_factor):
         if error1 < eps:
             break
 
-        elif iter_n > 500:
+        elif iter_n > 5000:
             break
 
         else:
@@ -67,7 +67,7 @@ def SOR3(md, p, ap, ae, aw, bb, m, p_exact, relax_factor):
         if error3 < eps:
             break
 
-        elif iter_n > 500:
+        elif iter_n > 5000:
             break
 
         else:

@@ -56,7 +56,7 @@ if __name__ == '__main__':
         # SOR method
         relax_factor = o / 100  # SOR relaxation factor
         result[o][0] = relax_factor
-        result[o][1], result[o][2], result[o][3], result[o][4] = func.solve_matrix.SOR1(md, p, ap, ae, aw, bb, m, p_exact, relax_factor)
+        result[o][1], result[o][2], result[o][3], result[o][4] = func.solve_matrix.SOR3(md, p, ap, ae, aw, bb, m, p_exact, relax_factor)
 
         # output commandline
         # if result[o][1] < 500:
@@ -83,11 +83,12 @@ if __name__ == '__main__':
     # graph2
     fig, ax = plt.subplots()
     ax.scatter(result[:, 0], result[:, 1], marker='.', label='result')
-    p = plt.plot([omega_opt, omega_opt], [0, 500], "orange", linestyle='dashed', label='optimized relax_factor')
-    plt.title("iteration no. v.s. relax_factor")
+    p = plt.plot([omega_opt, omega_opt], [0, 5000], "orange", linestyle='dashed', label='optimized relax factor')
     plt.legend(loc='lower left')
     plt.xlim(0, 2)
-    plt.ylim(0, 500)
+    plt.ylim(0, 5000)
+    plt.xlabel('relax factor [-]')
+    plt.ylabel('iteration number [times]')
     # plt.show()
     os.makedirs('../data/lecture4/images', exist_ok=True)
     fig.savefig(f'../data/lecture4/images/relax_factor.png')
