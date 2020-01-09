@@ -15,7 +15,7 @@ if __name__ == '__main__':
     dl = 1.0
     dx = dl / (m - 1)
     c = - 2.0  # source term C
-    iter_max = 200
+    iter_max = 300
     omega_opt = 2 / (1 + np.sqrt(1 - 0.988**2))
 
     print(f"m = {m}\nL = {dl}\ndx = {dx}\nc = {c}\n")
@@ -64,10 +64,10 @@ if __name__ == '__main__':
         #     print(f"SOR iteration no. {result[o][1]}  -- error = {result[o][2]}, {result[o][3]}, {result[o][4]}\n")
 
         # # write csv file
-        m_e = np.transpose(np.stack([x[1:], p[1:]]))
-        os.makedirs(f'../data/lecture4/csv/output_SOR', exist_ok=True)
-        np.savetxt(f'../data/lecture4/csv/output_SOR/relax_factor_{relax_factor}.csv',
-                   m_e, delimiter=',', fmt='%.16f', header="x,p")
+        # m_e = np.transpose(np.stack([x[1:], p[1:]]))
+        # os.makedirs(f'../data/lecture4/csv/output_SOR', exist_ok=True)
+        # np.savetxt(f'../data/lecture4/csv/output_SOR/relax_factor_{relax_factor}.csv',
+        #            m_e, delimiter=',', fmt='%.16f', header="x,p")
 
         # graph1
         # fig, ax = plt.subplots()
@@ -76,7 +76,7 @@ if __name__ == '__main__':
         # plt.title(f"SOR method (relax_factor = {relax_factor})")
         # plt.legend(loc='upper left')
         # plt.xlim(np.min(x), np.max(x))
-        # # plt.show()
+        # plt.show()
         # os.makedirs('../data/lecture4/images/output_SOR', exist_ok=True)
         # fig.savefig(f'../data/lecture4/images/output_SOR/relax_factor_{relax_factor}.png')
 
@@ -89,6 +89,6 @@ if __name__ == '__main__':
     plt.ylim(0, 5000)
     plt.xlabel('relax factor [-]')
     plt.ylabel('iteration number [times]')
-    # plt.show()
-    os.makedirs('../data/lecture4/images', exist_ok=True)
-    fig.savefig(f'../data/lecture4/images/relax_factor.png')
+    plt.show()
+    # os.makedirs('../data/lecture4/images', exist_ok=True)
+    # fig.savefig(f'../data/lecture4/images/relax_factor.png')

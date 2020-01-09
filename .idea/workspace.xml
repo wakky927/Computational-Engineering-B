@@ -2,209 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.02.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.04.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.05.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.06.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.07.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.08.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.09.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.11.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.12.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.13.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.14.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.15.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.16.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.17.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.18.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.19.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.21.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.22.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.23.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.24.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.25.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.26.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.27.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.28.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.29.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.31.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.32.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.33.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.34.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.35.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.36.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.37.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.38.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.39.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.41.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.42.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.43.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.44.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.45.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.46.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.47.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.48.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.49.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.5.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.51.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.52.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.53.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.54.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.55.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.56.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.57.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.58.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.59.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.61.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.62.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.63.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.64.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.65.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.66.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.67.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.68.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.69.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.7.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.71.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.72.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.73.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.74.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.75.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.76.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.77.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.78.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.79.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.8.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.81.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.82.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.83.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.84.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.85.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.86.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.87.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.88.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.89.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.9.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.91.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.92.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.93.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.94.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.95.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.96.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.97.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.98.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_0.99.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.02.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.03.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.04.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.05.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.06.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.07.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.08.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.09.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.11.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.12.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.13.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.14.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.15.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.16.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.17.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.18.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.19.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.21.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.22.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.23.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.24.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.25.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.26.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.27.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.28.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.29.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.31.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.32.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.33.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.34.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.35.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.36.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.37.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.38.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.39.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.41.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.42.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.43.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.44.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.45.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.46.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.47.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.48.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.49.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.5.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.51.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.52.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.53.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.54.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.55.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.56.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.57.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.58.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.59.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.6.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.61.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.62.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.63.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.64.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.65.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.66.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.67.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.68.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.69.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.7.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.71.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.72.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.73.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.74.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.75.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.76.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.77.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.78.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.79.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.8.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.81.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.82.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.83.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.84.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.85.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.86.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.87.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.88.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.89.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.9.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.91.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.92.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.93.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.94.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.95.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.96.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.97.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.98.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_1.99.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/csv/output_SOR/relax_factor_2.0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture4/images/relax_factor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture4.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,33 +25,27 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myfunc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lesson" />
       <recent name="$PROJECT_DIR$/data/lecture3/csv/Excel" />
       <recent name="$PROJECT_DIR$/data/lecture3/csv/0.1" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/myfunc" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="lesson4" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -265,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lesson4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,6 +74,18 @@
         <item itemvalue="Python.lesson4" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -410,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577174503588</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modify lecture4 coding">
+      <created>1577174643427</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1577174643427</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,5 +249,23 @@
     <MESSAGE value="add lecture4 coding" />
     <MESSAGE value="modify lecture4 coding" />
     <option name="LAST_COMMIT_MESSAGE" value="modify lecture4 coding" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1578035816462">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578035816462" />
+    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1578035816459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578035816459" />
+    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1578035816458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578035816458" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1578035816461">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578035816461" />
   </component>
 </project>
