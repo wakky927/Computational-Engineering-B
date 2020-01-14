@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lecture6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/takuya.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578542107355</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add lecture6 coding">
+      <created>1578967381311</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578967381311</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,28 +285,29 @@
     <MESSAGE value="add lecture4 coding" />
     <MESSAGE value="modify lecture4 coding" />
     <MESSAGE value="add lecture5 coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lecture5 coding" />
+    <MESSAGE value="add lecture6 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lecture6 coding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1578967381053">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578967381053" />
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1578967223284">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1578967960021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578967223284" />
-    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1578967223282">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578967960021" />
+    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1578967960019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578967223282" />
-    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1578967223281">
+    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578967960019" />
+    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1578967960018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578967223281" />
-    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1578967223283">
+    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578967960018" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1578967960019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578967223283" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578967960019" />
   </component>
 </project>
