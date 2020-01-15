@@ -1,3 +1,5 @@
+import copy
+
 import numpy as np
 
 u = 5.0
@@ -7,7 +9,7 @@ L = 2.0
 dx = L / n
 Pe = u * dx / D
 omega = 1.6
-EPS = 1.0e-15
+EPS = 0.01
 i_max = 1000
 
 aw = u / dx + D / dx**2
@@ -44,19 +46,21 @@ if __name__ == '__main__':
     # SOR method
     for i in range(i_max):
         M = 0
-        f_tmp = f_SOR
+        f_tmp = copy.copy(f_SOR)
         for j in range(n + 1):
             if j == 0 or j == n:
                 f_SOR[j] = f_tmp[j] * (1 - omega) + b_SOR[j] * omega
-                if np.abs((f_SOR[j] - f_tmp[j]) / f_SOR[j]) < EPS:
+                r1 = np.abs((f_SOR[j] - f_tmp[j]) / f_SOR[j])
+                if r1 < EPS:
                     M += 1
 
             else:
                 f_SOR[j] = f_tmp[j] * (1 - omega) + (b_SOR[j] - c[j] * f_tmp[j + 1] - a[j] * f_SOR[j - 1]) / b[j] * omega
-                if np.abs((f_SOR[j] - f_tmp[j]) / f_SOR[j]) < EPS:
+                r2 = np.abs((f_SOR[j] - f_tmp[j]) / f_SOR[j])
+                if r2 < EPS:
                     M += 1
 
-        if M == n + 1:
+        if M == n:
             break
 
     print("fin")

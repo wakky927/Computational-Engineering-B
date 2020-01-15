@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture7.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,7 @@
       <recent name="$PROJECT_DIR$/myfunc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6_2">
+  <component name="RunManager" selected="Python.lecture7">
     <configuration name="6_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computational Engineering B" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture6/6_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lecture7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Computational Engineering B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lecture7" />
         <item itemvalue="Python.6_2" />
         <item itemvalue="Python.lesson4" />
       </list>
@@ -298,21 +323,48 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578983541877" />
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1578967960021">
+    <state width="1419" height="391" key="GridCell.Tab.0.bottom" timestamp="1579078412118">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578967960021" />
-    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1578967960019">
+    <state width="1419" height="391" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579078412118" />
+    <state width="1419" height="391" key="GridCell.Tab.0.center" timestamp="1579078412117">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578967960019" />
-    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1578967960018">
+    <state width="1419" height="391" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579078412117" />
+    <state width="1419" height="391" key="GridCell.Tab.0.left" timestamp="1579078412116">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578967960018" />
-    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1578967960019">
+    <state width="1419" height="391" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579078412116" />
+    <state width="1419" height="391" key="GridCell.Tab.0.right" timestamp="1579078412118">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578967960019" />
+    <state width="1419" height="391" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579078412118" />
+    <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1579078412120">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="391" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579078412120" />
+    <state width="1419" height="391" key="GridCell.Tab.1.center" timestamp="1579078412119">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="391" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1579078412119" />
+    <state width="1419" height="391" key="GridCell.Tab.1.left" timestamp="1579078412119">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="391" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1579078412119" />
+    <state width="1419" height="391" key="GridCell.Tab.1.right" timestamp="1579078412120">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="391" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579078412120" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/lecture7.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
