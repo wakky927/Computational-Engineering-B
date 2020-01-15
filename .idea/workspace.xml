@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture7.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,22 +331,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579078431132" />
-    <state width="1419" height="391" key="GridCell.Tab.0.bottom" timestamp="1579078412118">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1579113112605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579078412118" />
-    <state width="1419" height="391" key="GridCell.Tab.0.center" timestamp="1579078412117">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579113112605" />
+    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1579113112603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579078412117" />
-    <state width="1419" height="391" key="GridCell.Tab.0.left" timestamp="1579078412116">
+    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579113112603" />
+    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1579113112603">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579078412116" />
-    <state width="1419" height="391" key="GridCell.Tab.0.right" timestamp="1579078412118">
+    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579113112603" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1579113112604">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579078412118" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579113112604" />
     <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1579078412120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -360,16 +363,5 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="391" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579078412120" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/lecture7.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

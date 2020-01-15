@@ -1,13 +1,14 @@
 import copy
 
 import numpy as np
+from matplotlib import pyplot as plt
 
 u = 5.0
 D = 1.0
 n = 10
 L = 2.0
 dx = L / n
-Pe = u * dx / D
+Pe = u * L / D
 omega = 1.6
 EPS = 0.01
 i_max = 1000
@@ -21,6 +22,12 @@ b = np.full(n + 1, ap)
 c = np.full(n + 1, ae)
 a[-1] = c[0] = 0
 b[0] = b[-1] = 1
+
+x = np.zeros(n + 1)
+f = np.zeros(n + 1)
+for i in range(n + 1):
+    x[i] = dx * i
+    f[i] = (np.exp(Pe * x[i] / L) - 1) / (np.exp(Pe) - 1)
 
 f_TDMA = np.zeros(n + 1)
 f_SOR = np.zeros(n + 1)
@@ -63,4 +70,34 @@ if __name__ == '__main__':
         if M == n:
             break
 
-    print("fin")
+    # graph1
+    fig1, ax1 = plt.subplots()
+    p1 = plt.plot(x, f, label="true")
+    p2 = plt.plot(x, f_TDMA, label="TDMA")
+    plt.xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0], ["0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "1.2", "1.4", "1.6", "1.8", "2.0"])
+    ax1.set_xticks(np.linspace(0, 2, 11), minor=True)
+    plt.yticks([0.0, 0.5, 1.0], ["0.0", "0.5", "1.0"])
+    ax1.set_yticks(np.linspace(0, 1, 3), minor=True)
+    plt.title("TDMA method")
+    plt.legend(loc='upper left')
+    plt.xlim(0, 2)
+    plt.ylim(0, 1)
+    plt.xlabel('x')
+    plt.ylabel('f')
+    plt.show()
+
+    # graph2
+    fig2, ax2 = plt.subplots()
+    q1 = plt.plot(x, f, label="true")
+    q2 = plt.plot(x, f_SOR, color="green", label="SOR")
+    plt.xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0], ["0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "1.2", "1.4", "1.6", "1.8", "2.0"])
+    ax2.set_xticks(np.linspace(0, 2, 11), minor=True)
+    plt.yticks([0.0, 0.5, 1.0], ["0.0", "0.5", "1.0"])
+    ax2.set_yticks(np.linspace(0, 1, 3), minor=True)
+    plt.title("SOR method")
+    plt.legend(loc='upper left')
+    plt.xlim(0, 2)
+    plt.ylim(0, 1)
+    plt.xlabel('x')
+    plt.ylabel('f')
+    plt.show()
