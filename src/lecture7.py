@@ -16,6 +16,9 @@ i_max = 1000
 aw = u / dx + D / dx**2
 ap = - u / dx - 2 * D / dx**2
 ae = D / dx**2
+# aw = 3
+# ap = -4
+# ae = 1
 
 a = np.full(n + 1, aw)
 b = np.full(n + 1, ap)
