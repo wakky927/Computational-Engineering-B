@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lecture8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579503120989</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add lecture8 coding">
+      <created>1579757454255</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1579757454255</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,29 +385,30 @@
     <MESSAGE value="add lecture6 coding" />
     <MESSAGE value="add lecture7 coding" />
     <MESSAGE value="modify lecture7 coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify lecture7 coding" />
+    <MESSAGE value="add lecture8 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lecture8 coding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1579503120772">
+    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1579757454035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579503120772" />
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1579113186179">
+    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579757454035" />
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1579757457638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579113186179" />
-    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1579113186177">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579757457638" />
+    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1579757457636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579113186177" />
-    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1579113186175">
+    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579757457636" />
+    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1579757457635">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579113186175" />
-    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1579113186178">
+    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579757457635" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1579757457637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579113186178" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579757457637" />
     <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1579078412120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
