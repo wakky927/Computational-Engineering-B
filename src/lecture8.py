@@ -103,7 +103,7 @@ def xx(s):
 
 # setup
 PI = np.pi
-n = 6
+n = 1
 L = 2 * PI
 x_i = 500
 t_i = 500
