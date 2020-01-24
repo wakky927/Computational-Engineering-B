@@ -103,10 +103,10 @@ def xx(s):
 
 # setup
 PI = np.pi
-n = 6
+n = 2
 L = 2 * PI
-x_i = 1000
-t_i = 1000
+x_i = 200
+t_i = 100
 dt1 = 8 * L / t_i
 dt2 = 8 * L / t_i
 dx = 8 * L / x_i
@@ -165,6 +165,50 @@ if __name__ == '__main__':
                 else:
                     g[i][j] = 2 * g[i - 1][j] - g[i - 2][j] + c ** 2 * dt1 ** 2 / dx ** 2 * (g[i - 1][j + 1] - 2 * g[i - 1][j] + g[i - 1][j - 1])
 
+    # graph
+    os.makedirs(f'../data/lecture8/images/n_{n}/{t_i}', exist_ok=True)
+    # exercise 1
+    fig1, ax1 = plt.subplots(figsize=(8, 6))
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['font.size'] = 8
+    pt = plt.plot(x, f_true[int(0.4 * t_i)], label=f'true_{int(0.4 * t_i)}', color='blue')
+    pa = plt.plot(x, f[int(0.4 * t_i)], label=f'approximate_{int(0.4 * t_i)}', color='orange')
+    plt.xlim(0, L)
+    plt.ylim(-3 * A / c / n, 3 * A / c / n)
+    plt.title(f"Exercise 1 (true vs approximate) (dt, dx = {dt1})")
+    plt.legend(loc='upper right')
+    a, b = xx(0)
+    plt.xticks(a, b, rotation=30)
+    ax1.set_xticks(np.linspace(0, L, 2 * n + 1), minor=True)
+    plt.yticks([-2 * A / c / n, 0.0, 2 * A / c / n], [f"{round(-2 * A / c / n, 3)}", "0.0", f"{round(2 * A / c / n, 3)}"])
+    ax1.set_yticks(np.linspace(-3 * A / c / n, 3 * A / c / n, 3), minor=True)
+    plt.xlabel('x')
+    plt.ylabel('f')
+    ax1.grid(which="both")
+    plt.show()
+    fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
+    # exercise 2
+    fig2, ax2 = plt.subplots(figsize=(8, 6))
+    plt.rcParams['font.family'] = 'sans-serif'
+    plt.rcParams['font.size'] = 8
+    qt = plt.plot(x, g_true[int(0.4 * t_i)], label=f'true_{int(0.4 * t_i)}', color='blue')
+    qa = plt.plot(x, g[int(0.4 * t_i)][:-1], label=f'approximate_{int(0.4 * t_i)}', color='orange')
+    plt.xlim(0, L)
+    plt.ylim(-5 * A / c / (2 * n - 1), 5 * A / c / (2 * n - 1))
+    plt.title(f"Exercise 2 (true vs approximate) (dt, dx = {dt1})")
+    plt.legend(loc='upper right')
+    a, b = xx(1)
+    plt.xticks(a, b, rotation=30)
+    ax2.set_xticks(np.linspace(0, L, 2 * n), minor=True)
+    plt.yticks([-4 * A / (2 * n - 1) / c, 0.0, 4 * A / (2 * n - 1) / c], [f"{round(-4 * A / (2 * n - 1) / c, 3)}", "0.0", f"{round(4 * A / (2 * n - 1) / c, 3)}"])
+    ax2.set_yticks(np.linspace(-5 * A / c / (2 * n - 1), 5 * A / c / (2 * n - 1), 3), minor=True)
+    plt.xlabel('x')
+    plt.ylabel('f')
+    ax2.grid(which="both")
+    # plt.show()
+    fig2.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_2.png')
+
+    # gif
     os.makedirs(f'../data/lecture8/gif/n_{n}/{t_i}', exist_ok=True)
     fig, ax = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
