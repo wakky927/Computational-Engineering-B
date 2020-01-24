@@ -103,10 +103,10 @@ def xx(s):
 
 # setup
 PI = np.pi
-n = 2
+n = 6
 L = 2 * PI
-x_i = 206
-t_i = 200
+x_i = 500
+t_i = 500
 dt1 = 8 * L / t_i
 dt2 = 8 * L / t_i
 dx = 8 * L / x_i
@@ -166,13 +166,13 @@ if __name__ == '__main__':
                     g[i][j] = 2 * g[i - 1][j] - g[i - 2][j] + c ** 2 * dt1 ** 2 / dx ** 2 * (g[i - 1][j + 1] - 2 * g[i - 1][j] + g[i - 1][j - 1])
 
     # graph
-    # os.makedirs(f'../data/lecture8/images/n_{n}/{t_i}', exist_ok=True)
+    os.makedirs(f'../data/lecture8/images/n_{n}/{t_i}', exist_ok=True)
     # exercise 1
     fig1, ax1 = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
     plt.rcParams['font.size'] = 8
-    pt = plt.plot(x, f_true[int(0.4 * t_i)], label=f'true_{int(0.4 * t_i)}', color='blue')
-    pa = plt.plot(x, f[int(0.4 * t_i)], label=f'approximate_{int(0.4 * t_i)}', color='orange')
+    pt = plt.plot(x, f_true[int(0.4 * t_i)], label='true', color='blue')
+    pa = plt.plot(x, f[int(0.4 * t_i)], label='approximate', color='orange')
     plt.xlim(0, L)
     plt.ylim(-3 * A / c / n, 3 * A / c / n)
     plt.title(f"Exercise 1 (true vs approximate) (dt = {round(dt1, 3)}, dx = {round(dx, 3)})")
@@ -185,14 +185,14 @@ if __name__ == '__main__':
     plt.xlabel('x')
     plt.ylabel('f')
     ax1.grid(which="both")
-    plt.show()
-    # fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
+    # plt.show()
+    fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
     # exercise 2
     fig2, ax2 = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
     plt.rcParams['font.size'] = 8
-    qt = plt.plot(x, g_true[int(0.4 * t_i)], label=f'true_{int(0.4 * t_i)}', color='blue')
-    qa = plt.plot(x, g[int(0.4 * t_i)][:-1], label=f'approximate_{int(0.4 * t_i)}', color='orange')
+    qt = plt.plot(x, g_true[int(0.4 * t_i)], label='true', color='blue')
+    qa = plt.plot(x, g[int(0.4 * t_i)][:-1], label='approximate', color='orange')
     plt.xlim(0, L)
     plt.ylim(-5 * A / c / (2 * n - 1), 5 * A / c / (2 * n - 1))
     plt.title(f"Exercise 2 (true vs approximate) (dt = {round(dt1, 3)}, dx = {round(dx, 3)}))")
@@ -205,8 +205,8 @@ if __name__ == '__main__':
     plt.xlabel('x')
     plt.ylabel('f')
     ax2.grid(which="both")
-    plt.show()
-    # fig2.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_2.png')
+    # plt.show()
+    fig2.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_2.png')
 
     # gif
     # os.makedirs(f'../data/lecture8/gif/n_{n}/{t_i}', exist_ok=True)
