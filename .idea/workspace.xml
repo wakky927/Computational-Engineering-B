@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/100/1_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/100/1_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/100/2_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/100/2_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/1000/1_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/1000/1_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/1000/2_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_1/1000/2_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/100/1_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/100/1_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/100/2_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/100/2_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/1000/1_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/1000/1_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/1000/2_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_2/1000/2_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_6/100/1_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_6/100/1_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_6/100/2_approximate.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/gif/n_6/100/2_true.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/100/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/100/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/1000/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/1000/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/500/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_1/500/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/100/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/100/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/1000/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/1000/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/500/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_2/500/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/100/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/100/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/1000/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/1000/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/500/vs_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/n_6/500/vs_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture8/images/omg_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_1/1_approximate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_1/1_true.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_1/2_approximate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_1/2_true.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_2/1_approximate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_2/1_true.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_2/2_approximate.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/lecture8/gif/n_2/2_true.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture8.py" afterDir="false" />
-    </list>
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -416,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579773207960</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add lecture8 coding">
+      <created>1579826355927</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579826355927</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,10 +406,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add lecture8 coding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1579773180354">
+    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1579826334844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579773180354" />
+    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579826334844" />
     <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1579826289403">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
