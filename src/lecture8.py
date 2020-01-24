@@ -105,8 +105,8 @@ def xx(s):
 PI = np.pi
 n = 2
 L = 2 * PI
-x_i = 200
-t_i = 100
+x_i = 206
+t_i = 200
 dt1 = 8 * L / t_i
 dt2 = 8 * L / t_i
 dx = 8 * L / x_i
@@ -166,7 +166,7 @@ if __name__ == '__main__':
                     g[i][j] = 2 * g[i - 1][j] - g[i - 2][j] + c ** 2 * dt1 ** 2 / dx ** 2 * (g[i - 1][j + 1] - 2 * g[i - 1][j] + g[i - 1][j - 1])
 
     # graph
-    os.makedirs(f'../data/lecture8/images/n_{n}/{t_i}', exist_ok=True)
+    # os.makedirs(f'../data/lecture8/images/n_{n}/{t_i}', exist_ok=True)
     # exercise 1
     fig1, ax1 = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
@@ -186,7 +186,7 @@ if __name__ == '__main__':
     plt.ylabel('f')
     ax1.grid(which="both")
     plt.show()
-    fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
+    # fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
     # exercise 2
     fig2, ax2 = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
@@ -205,23 +205,23 @@ if __name__ == '__main__':
     plt.xlabel('x')
     plt.ylabel('f')
     ax2.grid(which="both")
-    # plt.show()
-    fig2.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_2.png')
+    plt.show()
+    # fig2.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_2.png')
 
     # gif
-    os.makedirs(f'../data/lecture8/gif/n_{n}/{t_i}', exist_ok=True)
-    fig, ax = plt.subplots(figsize=(8, 6))
-    plt.rcParams['font.family'] = 'sans-serif'
-    plt.rcParams['font.size'] = 8
+    # os.makedirs(f'../data/lecture8/gif/n_{n}/{t_i}', exist_ok=True)
+    # fig, ax = plt.subplots(figsize=(8, 6))
+    # plt.rcParams['font.family'] = 'sans-serif'
+    # plt.rcParams['font.size'] = 8
     # true
-    anim_f_true = animation.FuncAnimation(fig, animate_f_true, frames=t_i)
-    anim_f_true.save(f'../data/lecture8/gif/n_{n}/{t_i}/1_true.gif', writer='imagemagick', fps=30)
-    anim_g_true = animation.FuncAnimation(fig, animate_g_true, frames=t_i)
-    anim_g_true.save(f'../data/lecture8/gif/n_{n}/{t_i}/2_true.gif', writer='imagemagick', fps=30)
+    # anim_f_true = animation.FuncAnimation(fig, animate_f_true, frames=t_i)
+    # anim_f_true.save(f'../data/lecture8/gif/n_{n}/{t_i}/1_true.gif', writer='imagemagick', fps=30)
+    # anim_g_true = animation.FuncAnimation(fig, animate_g_true, frames=t_i)
+    # anim_g_true.save(f'../data/lecture8/gif/n_{n}/{t_i}/2_true.gif', writer='imagemagick', fps=30)
     # approximate
-    anim_f = animation.FuncAnimation(fig, animate_f, frames=t_i)
-    anim_f.save(f'../data/lecture8/gif/n_{n}/{t_i}/1_approximate.gif', writer='imagemagick', fps=30)
-    anim_g = animation.FuncAnimation(fig, animate_g, frames=t_i)
-    anim_g.save(f'../data/lecture8/gif/n_{n}/{t_i}/2_approximate.gif', writer='imagemagick', fps=30)
+    # anim_f = animation.FuncAnimation(fig, animate_f, frames=t_i)
+    # anim_f.save(f'../data/lecture8/gif/n_{n}/{t_i}/1_approximate.gif', writer='imagemagick', fps=30)
+    # anim_g = animation.FuncAnimation(fig, animate_g, frames=t_i)
+    # anim_g.save(f'../data/lecture8/gif/n_{n}/{t_i}/2_approximate.gif', writer='imagemagick', fps=30)
 
     print("fin.")
