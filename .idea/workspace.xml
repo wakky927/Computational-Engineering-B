@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/lecture9/divergent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/grid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/output_paraview.vtk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/velocity_u.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/velocity_u.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/velocity_v.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture9/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture9/condition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture9/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture9/output.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture9/solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Computational Engineering B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Computational Engineering B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -444,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579854974730</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add lecture9 coding">
+      <created>1580028364962</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1580028364962</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,29 +467,30 @@
     <MESSAGE value="add lecture7 coding" />
     <MESSAGE value="modify lecture7 coding" />
     <MESSAGE value="add lecture8 coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lecture8 coding" />
+    <MESSAGE value="add lecture9 coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lecture9 coding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1579854974273">
+    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1580028364702">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579854974273" />
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1579860048044">
+    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580028364702" />
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1580028368373">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579860048044" />
-    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1579860048042">
+    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580028368373" />
+    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1580028368371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579860048042" />
-    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1579860048041">
+    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580028368371" />
+    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1580028368370">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579860048041" />
-    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1579860048043">
+    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580028368370" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1580028368372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579860048043" />
+    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580028368372" />
     <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1579849411259">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
