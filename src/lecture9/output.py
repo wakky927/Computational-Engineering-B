@@ -3,16 +3,17 @@ import os
 import numpy as np
 
 
-def grid(xp, yp):
-    os.makedirs('../../data/lecture9', exist_ok=True)
+def grid(xp, yp, m):
+    os.makedirs(f'../../data/lecture9/{m}', exist_ok=True)
     grid_mat = np.stack([xp, yp])
     np.savetxt(
-        '../../data/lecture9/grid.csv', grid_mat, delimiter=',', fmt='%.10f')
+        f'../../data/lecture9/{m}/grid.csv', grid_mat, delimiter=',',
+        fmt='%.10f')
 
     return
 
 
-def solution(p, u, v, m, n):
+def solution(p, u, v):
     print(f"\nvelocity u")
     print(u)
 
@@ -39,9 +40,10 @@ def divergent(p, u, v, dx, dy, m, n):
             div[i][j] = (u[i][j] - u[i - 1][j]) / dx\
                         + (v[i][j] - v[i][j - 1]) / dy
 
-    os.makedirs('../../data/lecture9', exist_ok=True)
+    os.makedirs(f'../../data/lecture9/{m}', exist_ok=True)
     np.savetxt(
-        '../../data/lecture9/divergent.csv', div, delimiter=',', fmt='%.10f')
+        f'../../data/lecture9/{m}/divergent.csv', div, delimiter=',',
+        fmt='%.10f')
 
     return
 
@@ -88,23 +90,24 @@ def solution_post(p, u, v, m, n):
         u_cnt[i][n + 1] = 0.5 * (u[i][n + 1] + u[i - 1][n + 1])
         v_cnt[i][n + 1] = v[i][n]
 
-    os.makedirs('../../data/lecture9', exist_ok=True)
+    os.makedirs(f'../../data/lecture9/{m}', exist_ok=True)
     np.savetxt(
-        '../../data/lecture9/velocity_u.csv', u_cnt, delimiter=',',
+        f'../../data/lecture9/{m}/velocity_u.csv', u_cnt, delimiter=',',
         fmt='%.10f')
     np.savetxt(
-        '../../data/lecture9/velocity_v.csv', v_cnt, delimiter=',',
+        f'../../data/lecture9/{m}/velocity_v.csv', v_cnt, delimiter=',',
         fmt='%.10f')
     np.savetxt(
-        '../../data/lecture9/velocity_u.csv', p, delimiter=',', fmt='%.10f')
+        f'../../data/lecture9/{m}/velocity_u.csv', p, delimiter=',',
+        fmt='%.10f')
 
 
     return
 
 
 def paraview(p, xp, yp, m, n, u, v):
-    os.makedirs('../../data/lecture9', exist_ok=True)
-    path_w = '../../data/lecture9/output_paraview.vtk'
+    os.makedirs(f'../../data/lecture9/{m}', exist_ok=True)
+    path_w = f'../../data/lecture9/{m}/output_paraview.vtk'
 
     with open(path_w, mode='w') as f:
         f.write("# vtk DataFile Version 3.0\n")

@@ -23,7 +23,7 @@ if __name__ == '__main__':
         = condition.physical_c()
     dx, dy, dt, m, n, istep_max\
         = condition.grid_c(xp, yp, nue, length, height, time, inlet_velocity)
-    output.grid(xp, yp)
+    output.grid(xp, yp, m)
 
     istep = 0
     time = istep * dt
