@@ -60,12 +60,12 @@ def solve_p(p, u, v, u_old, v_old, nue, density, dx, dy, dt, m, n):
                       * (u_old[i + 1][j] - u_old[i][j]) / dx
 
             # convection_y
-            v_stg = 0.25 * (v_old[i][j] + v_old[i + 1][j] + v_old[i][j - 1]
-                            + v_old[i + 1][j - 1])  # Staggered grid
+            # v_stg = 0.25 * (v_old[i][j] + v_old[i + 1][j] + v_old[i][j - 1]
+            #                 + v_old[i + 1][j - 1])  # Staggered grid
             u[i][j] = u[i][j]\
-                      - dt * max(v_stg, 0.0)\
+                      - dt * max(v_old[i][j], 0.0)\
                       * (u_old[i][j] - u_old[i][j - 1]) / dy\
-                      - dt * min(v_stg, 0.0)\
+                      - dt * min(v_old[i][j], 0.0)\
                       * (u_old[i][j + 1] - u_old[i][j]) / dy
 
             # diffusion_x
@@ -80,12 +80,12 @@ def solve_p(p, u, v, u_old, v_old, nue, density, dx, dy, dt, m, n):
 
             ''' velocity v '''
             # convection_x (1st upwind scheme)
-            u_stg = 0.25 * (u_old[i][j] + u_old[i - 1][j] + u_old[i][j + 1]
-                            + u_old[i - 1][j + 1])  # Staggered grid
+            # u_stg = 0.25 * (u_old[i][j] + u_old[i - 1][j] + u_old[i][j + 1]
+            #                 + u_old[i - 1][j + 1])  # Staggered grid
             v[i][j] = v_old[i][j] \
-                      - dt * max(u_stg, 0.0) \
+                      - dt * max(u_old[i][j], 0.0) \
                       * (v_old[i][j] - v_old[i - 1][j]) / dx \
-                      - dt * min(u_stg, 0.0) \
+                      - dt * min(u_old[i][j], 0.0) \
                       * (v_old[i + 1][j] - v_old[i][j]) / dx
 
             # convection_y
@@ -101,7 +101,7 @@ def solve_p(p, u, v, u_old, v_old, nue, density, dx, dy, dt, m, n):
                                     + v_old[i - 1][j]) / dx**2
 
             # diffusion_y
-            u[i][j] = u[i][j] \
+            v[i][j] = v[i][j] \
                       + dt * nue * (v_old[i][j + 1] - 2 * v_old[i][j]
                                     + v_old[i][j - 1]) / dy**2
 
@@ -114,10 +114,10 @@ def solve_p(p, u, v, u_old, v_old, nue, density, dx, dy, dt, m, n):
             As[i][j] = dt / density / dy**2
             Ap[i][j] = - Ae[i][j] - Aw[i][j] - An[i][j] - As[i][j]
 
-            bb[i][j] = (u[i][j] - u[i - 1][j]) / dx\
-                       + (v[i][j] - v[i][j - 1]) / dy
-            # bb[i][j] = (u[i + 1][j] - u[i - 1][j]) / dx / 2 \
-            #            + (v[i][j + 1] - v[i][j - 1]) / dy / 2
+            # bb[i][j] = (u[i][j] - u[i - 1][j]) / dx\
+            #            + (v[i][j] - v[i][j - 1]) / dy
+            bb[i][j] = (u[i + 1][j] - u[i - 1][j]) / dx / 2 \
+                       + (v[i][j + 1] - v[i][j - 1]) / dy / 2
 
     condition.matrix_c(p, Ap, Ae, Aw, An, As, bb, m, n)
     solve_matrix(p, Ap, Ae, Aw, An, As, bb, m, n)
@@ -133,10 +133,10 @@ def solve_u(p, u, density, dx, dt, m, n):
             # diffusion_x -> already calculated in solve_p
             # diffusion_y -> already calculated in solve_p
             # pressure
-            u[i][j] = u[i][j]\
-                      - dt / density * (p[i + 1][j] - p[i][j]) / dx
-            # u[i][j] = u[i][j] \
-            #           - dt / density * (p[i + 1][j] - p[i - 1][j]) / dx / 2
+            # u[i][j] = u[i][j]\
+            #           - dt / density * (p[i + 1][j] - p[i][j]) / dx
+            u[i][j] = u[i][j] \
+                      - dt / density * (p[i + 1][j] - p[i - 1][j]) / dx / 2
 
 
 def solve_v(p, v, density, dy, dt, m, n):
@@ -147,7 +147,7 @@ def solve_v(p, v, density, dy, dt, m, n):
             # diffusion_x -> already calculated in solve_p
             # diffusion_y -> already calculated in solve_p
             # pressure
-            v[i][j] = v[i][j] \
-                      - dt / density * (p[i][j + 1] - p[i][j]) / dy
             # v[i][j] = v[i][j] \
-            #           - dt / density * (p[i][j + 1] - p[i][j - 1]) / dy / 2
+            #           - dt / density * (p[i][j + 1] - p[i][j]) / dy
+            v[i][j] = v[i][j] \
+                      - dt / density * (p[i][j + 1] - p[i][j - 1]) / dy / 2

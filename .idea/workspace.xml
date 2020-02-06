@@ -2,25 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33a5dce0-70d8-43d9-b53d-d436f459029c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/lecture9/10/divergent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/10/grid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/10/output_paraview.vtk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/10/velocity_u.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/10/velocity_v.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/20/divergent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/20/grid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/20/output_paraview.vtk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/20/velocity_u.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/20/velocity_v.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/50/divergent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/50/grid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/50/output_paraview.vtk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/50/velocity_u.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/lecture9/50/velocity_v.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/takuya.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/takuya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/divergent.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/grid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/output_paraview.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/pressure.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/velocity_u.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10/200_100/velocity_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/divergent.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/grid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/output_paraview.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/pressure.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/velocity_u.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5/200_100/velocity_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/divergent.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/grid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/output_paraview.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/pressure.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/velocity_u.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/10/200_100/velocity_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/divergent.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/grid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/output_paraview.vtk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/pressure.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/velocity_u.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture10/tmp/water/5/200_100/velocity_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture9/10/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture9/20/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture9/e10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture9/e20.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lecture9/error_10_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture10/condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture10/output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture10/solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture9/error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Computational Engineering B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Computational Engineering B.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/10/divergent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/divergent.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/10/grid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/grid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/10/output_paraview.vtk" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/output_paraview.vtk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/10/velocity_u.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/velocity_u.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/10/velocity_v.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/velocity_v.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/20/divergent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/divergent.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/20/grid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/grid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/20/output_paraview.vtk" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/output_paraview.vtk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/20/velocity_u.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/velocity_u.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/20/velocity_v.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/velocity_v.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/50/divergent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/pressure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/50/grid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/50/output_paraview.vtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/50/velocity_u.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/20/pressure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lecture9/50/velocity_v.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/lecture9/10/pressure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture6/6_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture6/6_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture9/condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture9/condition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lecture9/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture9/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lecture9/output.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture9/output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture9/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture9/solver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +92,25 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lecture9/2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/lecture8/gif/n_1" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/lecture6" />
-      <recent name="$PROJECT_DIR$/src/lesson" />
-      <recent name="$PROJECT_DIR$/data/lecture3/csv/Excel" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lecture9/2" />
       <recent name="$PROJECT_DIR$/myfunc" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/lecture10/tmp/water/10" />
+      <recent name="$PROJECT_DIR$/data/lecture10/tmp/glycerin/10" />
+      <recent name="$PROJECT_DIR$/data/lecture10/tmp/glycerin/5" />
+      <recent name="$PROJECT_DIR$/data/lecture10/tmp/water/5" />
+      <recent name="$PROJECT_DIR$/data/lecture10/tmp/5" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="6_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="error" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computational Engineering B" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,32 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lecture6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lecture9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture6/6_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lecture7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Computational Engineering B" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture9/error.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Computational Engineering B" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +160,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lecture9/2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture9/2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Computational Engineering B" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lecture10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lecture10/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.error" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.lecture8" />
-        <item itemvalue="Python.lecture7" />
-        <item itemvalue="Python.6_2" />
-        <item itemvalue="Python.lesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580028364962</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add lecture9 coding">
+      <created>1580216488334</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1580216488334</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,41 +541,65 @@
     <option name="LAST_COMMIT_MESSAGE" value="add lecture9 coding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1580216474461">
+    <state x="259" y="53" key="CommitChangelistDialog2" timestamp="1580216487888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580216474461" />
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom" timestamp="1580216430943">
+    <state x="259" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580216487888" />
+    <state width="1419" height="156" key="GridCell.Tab.0.bottom" timestamp="1580989688368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580216430943" />
-    <state width="1419" height="166" key="GridCell.Tab.0.center" timestamp="1580216430941">
+    <state width="1419" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580989688368" />
+    <state width="1419" height="156" key="GridCell.Tab.0.center" timestamp="1580989688366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580216430941" />
-    <state width="1419" height="166" key="GridCell.Tab.0.left" timestamp="1580216430939">
+    <state width="1419" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580989688366" />
+    <state width="1419" height="156" key="GridCell.Tab.0.left" timestamp="1580989688365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580216430939" />
-    <state width="1419" height="166" key="GridCell.Tab.0.right" timestamp="1580216430942">
+    <state width="1419" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580989688365" />
+    <state width="1419" height="156" key="GridCell.Tab.0.right" timestamp="1580989688367">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="166" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580216430942" />
-    <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1579849411259">
+    <state width="1419" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580989688367" />
+    <state width="1419" height="391" key="GridCell.Tab.1.bottom" timestamp="1580979965681">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579849411259" />
-    <state width="1419" height="391" key="GridCell.Tab.1.center" timestamp="1579849411258">
+    <state width="1419" height="391" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580979965681" />
+    <state width="1419" height="345" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1580377492584" />
+    <state width="1419" height="391" key="GridCell.Tab.1.center" timestamp="1580979965679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1579849411258" />
-    <state width="1419" height="391" key="GridCell.Tab.1.left" timestamp="1579849411257">
+    <state width="1419" height="391" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1580979965679" />
+    <state width="1419" height="345" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1580377492547" />
+    <state width="1419" height="391" key="GridCell.Tab.1.left" timestamp="1580979965678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1579849411257" />
-    <state width="1419" height="391" key="GridCell.Tab.1.right" timestamp="1579849411259">
+    <state width="1419" height="391" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1580979965678" />
+    <state width="1419" height="345" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1580377492546" />
+    <state width="1419" height="391" key="GridCell.Tab.1.right" timestamp="1580979965680">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="391" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579849411259" />
+    <state width="1419" height="391" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1580979965680" />
+    <state width="1419" height="345" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1580377492582" />
+    <state x="0" y="89" key="SettingsEditor" timestamp="1580604553203">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580604553203" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/lecture9/main.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/lecture10/main.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

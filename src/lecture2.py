@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     ''' 3次曲線近似 '''
     # p = np.poly1d(np.polyfit(X, Y, 3))
-    # plt.plot(fit.xp(X), p(fit.xp(X)), label='y = ({})x^3+({})x^2\n      +({})x+({})'.format(p[0], p[1], p[2], p[3]))
+    # plt.plot(fit.xp(X), p(fit.xp(X)), label='y = ({})x^3+({})x^lecture10\n      +({})x+({})'.format(p[0], p[1], p[lecture10], p[3]))
 
     ''' 累乗近似 '''
     opt, cov = optimize.curve_fit(fit.loglog, X[1:], Y[1:])

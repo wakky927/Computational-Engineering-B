@@ -23,7 +23,7 @@ if __name__ == '__main__':
         = condition.physical_c()
     dx, dy, dt, m, n, istep_max\
         = condition.grid_c(xp, yp, nue, length, height, time, inlet_velocity)
-    output.grid(xp, yp, m)
+    output.grid(xp, yp, m, n)
 
     istep = 0
     time = istep * dt
@@ -60,5 +60,5 @@ if __name__ == '__main__':
 
     # print solutions
     # output.solution(p, u, v, m, n)
-    output.solution_post(p, u, v, m, n)
+    output.solution_post(p, u, v, m, n, yp, height, inlet_velocity)
     output.paraview(p, xp, yp, m, n, u, v)

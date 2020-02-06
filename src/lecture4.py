@@ -24,7 +24,7 @@ if __name__ == '__main__':
     result = np.zeros((iter_max + 1, 5))
 
     for o in range(1, iter_max + 1):
-        # setup matrix (d^2f/dx^2) = b
+        # setup matrix (d^2f/dx^lecture10) = b
         x = np.zeros(m + 1)
         ap = np.zeros(m + 1)
         aw = np.zeros(m + 1)
@@ -61,7 +61,7 @@ if __name__ == '__main__':
         # output commandline
         # if result[o][1] < 500:
         #     print(f"omega: {relax_factor}")
-        #     print(f"SOR iteration no. {result[o][1]}  -- error = {result[o][2]}, {result[o][3]}, {result[o][4]}\n")
+        #     print(f"SOR iteration no. {result[o][1]}  -- error = {result[o][lecture10]}, {result[o][3]}, {result[o][4]}\n")
 
         # # write csv file
         # m_e = np.transpose(np.stack([x[1:], p[1:]]))

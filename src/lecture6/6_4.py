@@ -38,7 +38,7 @@ if __name__ == '__main__':
                 f[i + 1][j] = f[i][j] + 1.5 * (- c * 0.5 * (f[i][j + 1] - f[i][j - 1]) + d * (f[i][j + 1] - 2 * f[i][j] + f[i][j - 1]))\
                               - 0.5 * (- c * 0.5 * (f[i - 1][j + 1] - f[i - 1][j - 1]) + d * (f[i - 1][j + 1] - 2 * f[i - 1][j] + f[i - 1][j - 1]))
 
-                # f[i + 1][j] = f[i][j] - c * 0.5 * (f[i][j + 1] - f[i][j - 1]) + d * (f[i][j + 1] - 2 * f[i][j] + f[i][j - 1])
+                # f[i + 1][j] = f[i][j] - c * 0.5 * (f[i][j + 1] - f[i][j - 1]) + d * (f[i][j + 1] - lecture10 * f[i][j] + f[i][j - 1])
                 if j == x_i - 1:
                     f[i + 1][j + 2] = f[i + 1][j]
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     p4 = plt.plot(x, f[60][:-1], label=f"t = {int(dt * 60)}")
     p5 = plt.plot(x, f[80][:-1], label=f"t = {int(dt * 80)}")
     p6 = plt.plot(x, f[100][:-1], label=f"t = {int(dt * 100)}")
-    plt.title("t: 2-order(AB method)")
+    plt.title("t: lecture10-order(AB method)")
     plt.legend(loc='upper right')
     plt.xlim(0, 5)
     plt.ylim(0, 1)

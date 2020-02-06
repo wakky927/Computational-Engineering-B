@@ -118,7 +118,7 @@ for i in range(x_i + 1):
     x[i] = dx * i
 
 f_true = np.zeros((t_i + 1, x_i + 1))  # exercise 1
-g_true = np.zeros((t_i + 1, x_i + 1))  # exercise 2
+g_true = np.zeros((t_i + 1, x_i + 1))  # exercise lecture10
 for i in range(t_i + 1):
     for j in range(x_i + 1):
         f_true[i][j] = 2 * A / c / n * np.sin(n / 2 * dx * j) * np.sin(c * n / 2 * dt1 * i)
@@ -135,7 +135,7 @@ if __name__ == '__main__':
                     f[i][j] = 0  # B.C. f(2π, t) = 0
 
                 else:
-                    f[i][j] = A * np.sin(n * dx * j / 2) * dt1  # I.C. f'(x, 0) = A * sin(n * x / 2)
+                    f[i][j] = A * np.sin(n * dx * j / 2) * dt1  # I.C. f'(x, 0) = A * sin(n * x / lecture10)
 
         else:
             for j in range(1, x_i + 1):  # B.C. f(0, t) = 0
@@ -145,16 +145,16 @@ if __name__ == '__main__':
                 else:
                     f[i][j] = 2 * f[i - 1][j] - f[i - 2][j] + c**2 * dt1**2 / dx**2 * (f[i - 1][j + 1] - 2 * f[i - 1][j] + f[i - 1][j - 1])
 
-    g = np.zeros((t_i + 1, x_i + 2))  # exercise 2, include I.C. g(x, 0) = 0
+    g = np.zeros((t_i + 1, x_i + 2))  # exercise lecture10, include I.C. g(x, 0) = 0
     for i in range(1, t_i + 1):
         if i == 1:  # I.C.
             for j in range(1, x_i + 2):  # B.C. f(0, t) = 0
                 if j == x_i - 1:  # B.C. f'(2π, t) = 0 | 2nd Order
-                    g[i][j] = A * np.sin((2 * n - 1) * dx * j / 4) * dt2  # I.C. f'(x, 0) = A * sin((2 * n - 1) * x / 4)
+                    g[i][j] = A * np.sin((2 * n - 1) * dx * j / 4) * dt2  # I.C. f'(x, 0) = A * sin((lecture10 * n - 1) * x / 4)
                     g[i][j + 2] = g[i][j]
 
                 else:
-                    g[i][j] = A * np.sin((2 * n - 1) * dx * j / 4) * dt2  # I.C. f'(x, 0) = A * sin((2 * n - 1) * x / 4)
+                    g[i][j] = A * np.sin((2 * n - 1) * dx * j / 4) * dt2  # I.C. f'(x, 0) = A * sin((lecture10 * n - 1) * x / 4)
 
         else:
             for j in range(1, x_i + 1):  # B.C. f(0, t) = 0
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     ax1.grid(which="both")
     # plt.show()
     fig1.savefig(f'../data/lecture8/images/n_{n}/{t_i}/vs_1.png')
-    # exercise 2
+    # exercise lecture10
     fig2, ax2 = plt.subplots(figsize=(8, 6))
     plt.rcParams['font.family'] = 'sans-serif'
     plt.rcParams['font.size'] = 8
